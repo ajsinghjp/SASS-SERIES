@@ -1,0 +1,8 @@
+Vedio link : https://www.youtube.com/watch?v=XhZYk2L1WhQ&list=PLJ_8StqLhtFG8KraFJkySJF6OsSaEqb0s
+
+
+1. Create proeject structure.
+2. npm init (package.json creat)
+3. npm install gulp --save-dev (gulp initilize)
+4. npm install gulp-sass --save-dev (gulp-sass initilize)
+5. watch out  : Ctrl + C

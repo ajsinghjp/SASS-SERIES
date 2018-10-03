@@ -1,0 +1,56 @@
+/* variable defination */
+
+$primary-color : pink;
+$font-family : calibri;
+$bgColor :#333333;
+$headColor : white;
+$anchorBGColor : #cccccc;
+
+body{   
+    font-family: $font-family;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: $bgColor;
+    padding: 15px;
+    color: $headColor;
+
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15;
+        color: aqua;
+    }
+    p{
+        font-style: italic;
+    }
+}
+
+p{
+    font-size: 40px;
+}
+
+main {
+    width: 1200px;
+    margin: 0px auto;
+        p{
+            font-size: 18px;  /* nesting demo*/
+            text-align: justify;
+        }
+        a{
+            background-color: $anchorBGColor;
+            text-align: justify;
+            color: red;
+            border-radius: 9px;
+
+            &:hover{
+                background-color: coral;
+            }
+            
+            &:focus{
+                background-color: darkblue;
+            }
+        }
+}

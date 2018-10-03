@@ -1,0 +1,37 @@
+/* variable defination */
+body {
+  font-family: calibri;
+  font-size: 14px;
+  margin: 0;
+  padding: 0; }
+
+header {
+  background-color: #333333;
+  padding: 15px;
+  color: white; }
+  header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15;
+    color: aqua; }
+  header p {
+    font-style: italic; }
+
+p {
+  font-size: 40px; }
+
+main {
+  width: 1200px;
+  margin: 0px auto; }
+  main p {
+    font-size: 18px;
+    /* nesting demo*/
+    text-align: justify; }
+  main a {
+    background-color: #cccccc;
+    text-align: justify;
+    color: red;
+    border-radius: 9px; }
+    main a:hover {
+      background-color: coral; }
+    main a:focus {
+      background-color: darkblue; }
